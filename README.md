@@ -64,3 +64,7 @@ Goodbye!
 ## Author
 
 [@munaf085](https://github.com/munaf085)
+
+## Tested
+
+Built in the [MentorNxt](https://www.mentornxt.com/learn/java) Java project lab, where it passed all 6 hidden tests.

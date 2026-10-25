@@ -6,6 +6,7 @@ public class Calculator {
         Scanner scanner = new Scanner(System.in);
         System.out.println("=== Simple Calculator ===");
         boolean running = true;
+        int done = 0;
         while (running) {
             printMenu();
             System.out.print("Choose an option (1-5): ");
@@ -20,8 +21,12 @@ public class Calculator {
                 System.out.print("Second number: ");
                 double b = scanner.nextDouble();
                 showResult(choice, a, b);
+                if (!(choice == 4 && b == 0)) {
+                    done++;
+                }
             }
         }
+        System.out.println("Calculations done: " + done);
         System.out.println("Goodbye!");
         scanner.close();
     }

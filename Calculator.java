@@ -55,7 +55,7 @@ public class Calculator {
 
     static String symbolFor(int choice) {
         return switch (choice) {
-            case 1 -> "+";
+            case 1 -> "plus";
             case 2 -> "-";
             case 3 -> "*";
             default -> "/";
